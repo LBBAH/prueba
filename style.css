@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&display=swap');
+
+*{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+#navbarPage{
+    display: flex;
+    width: 100%;
+    background-color:rgb(35, 35, 35);
+    height: 60px;
+}
+
+.navbarPage-div-ul{
+    list-style: none;    
+}
+
+.navbarPage{
+    width: 100%;       
+}
+
+.infoOne{
+    margin-left:150px; 
+    margin-right:150px; 
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoOne-Me{
+    max-width: 50%;
+    flex: 1;
+}
+
+.navbarPage-div-option{
+    width: 100%;
+    text-align: end;    
+    font-size: 13px;
+    margin-right: 130px;
+}
+
+.navbarPage-div-ul li{
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;    
+}
+
+.navbarPage-div-ul a{
+    text-decoration: none;
+    color: beige;
+}
+
+.navbarPage-div-ul-option:hover{
+    border-bottom: 2px solid rgb(0, 99, 230);
+    color: rgb(0, 99, 230);
+    padding: 10px;    
+}
+.navbarPage-div-ul-option-click{
+    border-bottom: 2px solid rgb(0, 99, 230);
+    color: rgb(0, 99, 230);
+    padding: 10px;    
+}
+
+
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe-Infos{
+    max-width: 50%;
+    flex: 1;
+    margin: 7px;
+    padding: 10px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+}
+
+
+.aboutMe-projects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe-projects-Infos{
+    max-width: 50%;
+    flex: 1;
+    margin: 10px;
+    padding: 5px;
+    height: auto;    
+}
+
+
+.aboutMe-projects-Infos-background{
+    max-width: 100%; 
+    height: 600px; 
+    background-size: cover; 
+    margin: 40px;
+}
+
+
+.aboutMe-projects-Infos-ones{    
+    max-width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.514); 
+    padding-top: 50%;    
+    opacity: 0;
+}
+
+.aboutMe-projects-Infos-ones:hover{
+    opacity: 1;
+}
+
+.aboutMe-Infos-coments{
+    max-width: 100%;
+    flex: 1;
+    margin: 7px;
+    padding: 10px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+}
+
+.contactamePorfavor:hover{
+    border-bottom: 2px solid rgb(0, 99, 230);
+    color: rgb(0, 99, 230);    
+    transition: color 0.5s
+}
