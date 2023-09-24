@@ -12,6 +12,10 @@
     height: 60px;
 }
 
+#sobreMi{
+    background-color: black;  margin-top: 60px; padding-left: 150px; padding-right: 150px;
+}
+
 .navbarPage-div-ul{
     list-style: none;    
 }
@@ -31,6 +35,11 @@
 .infoOne-Me{
     max-width: 50%;
     flex: 1;
+}
+
+.infoOne-Me img{
+    width: 350px; 
+    border-radius: 50%;
 }
 
 .navbarPage-div-option{
@@ -141,6 +150,10 @@
     margin: 10px;
 }
 
+h1{
+    font-size: 60px;
+}
+
 @media only screen and (max-width: 1000px) {
     #navbarPage{
         display: none;
@@ -161,6 +174,9 @@
     .infoOne{        
         display: block;
         justify-content: space-between;    
+        margin-left:40px; 
+        margin-right:40px; 
+        margin-top: 50px;
     }
     
     .infoOne-Me{
@@ -173,6 +189,16 @@
     .aboutMe-Infos{
         max-width: 100%;     
         padding: 2px;   
+    }
+    #sobreMi{
+        margin-top: 60px; padding-left: 20px; padding-right: 20px;
+    }
+    h1{
+        font-size: 30;
+    }
+    .infoOne-Me img{
+        width: 250px; 
+        border-radius: 50%;
     }
     
   }
