@@ -1,4 +1,5 @@
-const spans = document.querySelectorAll('.animated-text span');
+const spans = document.querySelectorAll('·animated-text span');
+
 
 function animateWords(index) {
     if (index < spans.length) {
@@ -12,3 +13,15 @@ function animateWords(index) {
 }
 
 animateWords(0);
+
+
+function closePlease(){
+    var div = document.getElementById('navbarPage-response');
+    div.style.display = 'none';
+}
+
+
+function openPlease(){
+    var div = document.getElementById('navbarPage-response');
+    div.style.display = 'block';
+}
